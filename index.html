@@ -4,13 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snake by Rize</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* Set the height of the body to 100% of the viewport height */
+            margin: 0; /* Remove default margin */
+        }
+
+        h1 {
+            color: #ff4500; /* Reddish color for the heading */
+            font-size: 4em; /* Adjust the font size */
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 2em; /* Adjust the font size */
+            margin-bottom: 40px;
+        }
+
+        #downloadButton {
+            display: inline-block;
+            padding: 20px 40px; /* Adjust padding for the button */
+            background-color: #ff4500; /* Red color for the button */
+            color: white;
+            text-decoration: none;
+            border: none;
+            border-radius: 10px;
+            font-size: 2em; /* Adjust the font size */
+            cursor: pointer;
+        }
+
+        #downloadButton:hover {
+            background-color: #cc3700; /* Darker red for hover effect */
+        }
+    </style>
 </head>
 <body>
     <h1>Snake by Rize</h1>
     <p>Click the button below to download the game.</p>
-   <a href="https://github.com/inpulzy/inpulzy.github.io/raw/main/snake.exe" id="downloadButton" download="snake.exe">
-    <button>Download Now</button>
-</a>
-
+    <a href="https://github.com/inpulzy/inpulzy.github.io/raw/main/snake.exe" id="downloadButton" download="snake.exe">
+        Download Now
+    </a>
 </body>
 </html>
